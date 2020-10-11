@@ -1,92 +1,391 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta content="IE=edge" http-equiv="X-UA-Compatible">
-  <meta content="width=device-width,initial-scale=1" name="viewport">
-  <meta content="description" name="description">
-  <meta name="google" content="notranslate" />
-  <meta content="Mashup templates have been developped by Orson.io team" name="author">
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="keywords" content="Personal, Portfolio, Creative">
+        <meta name="description" content="Kalvin Portfolio Template">
+        <meta name="author" content="cosmos-themes">
 
-  <meta name="msapplication-tap-highlight" content="no">
-  
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
-  <link href="./assets/favicon.ico" rel="icon">
+        <title>Mil Amirian's Portfolio</title>
 
-  <title>Mil Amirian</title>  
+        <link href="images/favicon.ico" rel="icon" type="image/png"> 
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800,900%7cOpen+Sans:400,600,700,800" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
 
-  <link href="./main.3f6952e4.css" rel="stylesheet"></head>
+    </head>
 
-<body class="minimal">
-<div id="site-border-left"></div>
-<div id="site-border-right"></div>
-<div id="site-border-top"></div>
-<div id="site-border-bottom"></div>
-<header>
-  <nav class="navbar  navbar-fixed-top navbar-inverse">
-    <div class="container">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
+    <body>
 
-      <div class="collapse navbar-collapse" id="navbar-collapse">
-        <ul class="nav navbar-nav ">
-          <li><a href="./index.html" title="">01 : Home</a></li>
-          <li><a href="./about.html" title="">02 : About me</a></li>
-          <li><a href="./works.html" title="">03 : Works</a></li>
-          <li><a href="./skills.html" title="">04 : Skills</a></li>
-          <li><a href="./contact.html" title="">05 : Contact</a></li>
-        </ul>
-
-
-      </div> 
-    </div>
-  </nav>
-</header>
-  <div class="hero-full-container background-image-container white-text-container" style="background-image: url('./assets/images/mil-amirian-bg.jpg')">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="hero-full-wrapper">
-            <div class="text-content">
-              <h1>Hi, I'm Mil!<br>
-                <span id="typed-strings">
-                  <span>Front End Developer</span>
-                  <span>Software Engineer</span>
-                  <span>React.js & Node.js</span>
-                  <!-- <span>PHP, MySQL & Firebase</span> -->
-                </span>
-                <span id="typed"></span>
-              </h1>
-            </div>
-          </div>
+        <div class="preloader">
+            <div class="loader "></div>
         </div>
-      </div>
-    </div>
-  </div>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function (event) {
-     type();
-     movingBackgroundImage();
-  });
-</script>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand logo" href="index.html">
+                    Mil Amirian
+                </a>
 
-<script>
-  (function (i, s, o, g, r, a, m) {
-    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-      (i[r].q = i[r].q || []).push(arguments)
-    }, i[r].l = 1 * new Date(); a = s.createElement(o),
-      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-  ga('create', 'UA-176440800-1', 'auto');
-  ga('send', 'pageview');
-</script>
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-<script type="text/javascript" src="./main.70a66962.js"></script></body>
+                <div class="navbar-collapse collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active" data-scroll-nav="0" >Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-scroll-nav="1" >About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-scroll-nav="2" >Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-scroll-nav="3">Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-scroll-nav="5">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
+        <section id="home" class="banner banner-centered" style="background-image: url('images/background/mil-amirian-bkg.png')" data-stellar-background-ratio=".7" data-scroll-index="0">
+                <div class="banner-caption">
+                    <h1>Hi! I'm Mil.</h1>
+                    <p class="cd-headline clip mt-30">
+                        <span>Front End Developer located in Southern California.</span><br>
+                        <span class="blc">I specialize in</span>
+                        <span class="cd-words-wrapper">
+                            <b class="is-visible">Creating Dynamic Web Applications.</b>
+                            <b>HTML5 & CSS3</b>
+                            <b>JavaScript (ES5 & ES6)</b>
+                            <b>React.js</b>
+                            <b>Node.js</b>
+                        </span>
+                    </p>
+                </div>
+                <div class="arrow bounce">
+                    <a class="fa fa-chevron-down fa-2x" href="#" data-scroll-nav="1"></a>
+                </div>
+
+                <svg id="home-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1400 300" preserveAspectRatio="none">
+                    <path class="p-curve" d="M-0.2,0.5c0,0-21.7,99.6,233.1,99.6s320.1,199.7,467.6,200.1S898.6,100,1167.6,100S1401,0,1401,0v301H0 L-0.2,0.5z"/>
+                </svg>
+        </section>
+
+        <section class="about pt-100 pb-100" data-scroll-index="1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6">
+                        <div class="about-img">
+                            <img src="images/mil-amirian-circle-back.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-6">
+                        <div class="about-content">
+                            <div class="about-heading">
+                                <h2>About Me.</h2>
+                                <span>Front End Web Developer</span>
+                            </div>
+                            <p>I'm <b>Mil Amirian</b> and I'm passionate about Web Development. So much so,  I quit my management job at Raytheon Technologies to pursue formal certification in Full Stack Development. I attended a highly rated bootcamp at LearningFuze in Irvine CA., where I completed 850+ hrs of hands-on coding over 14 weeks.</p>
+                            
+                            <p>In addition to LearningFuze, I have over 10 years of Key Account Sales Management experience in the commercial aerospace sector along with a Bachelor of Engineering in Aerospace Systems.</p>
+
+                            <p>Solving complex problems is what drives and inspires me. With coding, I have found it to be the summation of complex problem solving that has the power to make a genuine difference in the world. It is truly an endeavor like no other.</p>
+                            <div class="social-icons">
+                                <a href="https://github.com/mil-amirian"><i class="fa fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/milamirian/"><i class="fa fa-linkedin"></i></a>
+                                <a href="https://twitter.com/mamirian2"><i class="fa fa-twitter"></i></a>
+                            </div>
+                            <!-- <span class="about-button">
+                                <a class="main-btn" href="#">Download CV</a>
+                            </span> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services bg-gray pt-100 pb-50" data-scroll-index="2">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="heading text-center">
+                            <h6>Skills</h6>
+                            <h2>What I Can Do</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="service-item">
+                            <span class="icon">
+                                <i class="fab fa-html5"></i>
+                            </span>
+                            <h4>HTML5</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service-item">
+                            <span class="icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </span>
+                            <h4>CSS3</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service-item">
+                            <span class="icon">
+                                <i class="fab fa-bootstrap"></i>
+                            </span>
+                            <h4>Bootstrap</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <!-- Item-->
+                        <div class="service-item">
+                            <span class="icon">
+                                <i class="fab fa-js"></i>
+                            </span>
+                            <h4>JavaScript (ES5 & ES6)</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service-item">
+                            <span class="icon">
+                                <i class="fab fa-react"></i>
+                            </span>
+                            <h4>React.js</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="service-item">
+                            <span class="icon">
+                                <i class="fab fa-node"></i>
+                            </span>
+                            <h4>Node.js</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio pt-100 pb-70" data-scroll-index="3">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="heading text-center">
+                            <h6>Portfolio</h6>
+                            <h2>Work I Have Done</h2>
+                        </div>
+                        <div class="portfolio-filter text-center">
+                            <ul>
+                                <li class="sel-item" data-filter="*">All</li>
+                                <li data-filter=".full-stack">Full Stack</li>
+                                <li data-filter=".front-end">Front End</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row portfolio-items">
+                    <div class="col-lg-4 col-md-6 item full-stack">
+                        <div class="item-content">
+                            <img src="images/portfolio/wicked-sales.png" alt="">
+                            <div class="item-overlay">
+                                <h6>Full Stack</h6>
+                                <div class="icons">
+                                    <span class="icon d-flex justify-content-around flex-column align-items-center">
+                                        <p class="col-10">A full stack Node.js and React shopping cart app. Created using <b>React.js</b>, <b>Express</b>, <b>PostgreSQL</b>, <b>Node.js</b>, <b>Bootstrap</b> and <b>HTML & CSS</b>.</p>
+                                        <div class="d-flex">
+                                            <a href="https://wicked-sales.milamirian.com/" class="m-1" target="blank">
+                                                <i class="fa fa-eye"></i>
+                                            </a>
+                                            <a href="https://github.com/mil-amirian/wicked-sales-js" class="m-1" target="blank">
+                                                <i class="fa fa-github"></i>
+                                            </a>
+                                        </div>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 item full-stack">
+                        <div class="item-content">
+                            <img src="images/portfolio/hr-buddy.png" alt="">
+                            <div class="item-overlay">
+                                <h6>Full Stack</h6>
+                                <div class="icons">
+                                    <span class="icon d-flex justify-content-around flex-column align-items-center">
+                                        <p class="col-10">A full stack employee management desktop web application. Created using <b>React.js</b>, <b>Express</b>, <b>PostgreSQL</b>, <b>Node.js</b>, <b>Bootstrap</b> and <b>HTML & CSS</b>.</p>
+                                        <div class="d-flex">
+                                            <a href="https://hr-buddy.milamirian.com/" class="m-1" target="blank">
+                                                <i class="fa fa-eye"></i>
+                                            </a>
+                                            <a href="https://github.com/mil-amirian/hr-buddy" class="m-1" target="blank">
+                                                <i class="fa fa-github"></i>
+                                            </a>
+                                        </div>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 item front-end">
+                        <div class="item-content">
+                            <img src="images/portfolio/comic-heroes.png" alt="">
+                            <div class="item-overlay">
+                                <h6>Front End</h6>
+                                <div class="icons">
+                                    <span class="icon d-flex justify-content-around flex-column align-items-center">
+                                        <p class="col-10">A <b>solo-hackathon</b> project utilizing data from two public <b>APIs</b> (programmer jokes & superheroes). Created using <b>JavaScript</b>, <b>CSS3</b>, <b>HTML5</b> and <b>AJAX</b></p>
+                                        <div class="d-flex">
+                                            <a href="https://mil-amirian.github.io/comic-heroes/" class="m-1" target="blank">
+                                                <i class="fa fa-eye"></i>
+                                            </a>
+                                            <a href="https://github.com/mil-amirian/comic-heroes" class="m-1" target="blank">
+                                                <i class="fa fa-github"></i>
+                                            </a>
+                                        </div>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 item front-end">
+                        <div class="item-content">
+                            <img src="images/portfolio/memory-match.png" alt="">
+                            <div class="item-overlay">
+                                <h6>Front End</h6>
+                                <div class="icons">
+                                    <span class="icon d-flex justify-content-around flex-column align-items-center">
+                                        <p class="col-10">A fun and addictive Super Mario themed memory-match game created using <b>HTML5</b>, <b>CSS3</b> & <b>JavaScript</b>. </p>
+                                        <div class="d-flex">
+                                            <a href="https://mil-amirian.github.io/mario-memory-match-game/" class="m-1" target="blank">
+                                                <i class="fa fa-eye"></i>
+                                            </a>
+                                            <a href="https://github.com/mil-amirian/mario-memory-match-game" class="m-1" target="blank">
+                                                <i class="fa fa-github"></i>
+                                            </a>
+                                        </div>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials pt-100 pb-100" style="background-image: url('images/background/testimonial.png')">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1">
+                        <div class="owl-carousel owl-theme text-center">
+                            <div class="testimonial-item">
+                                <div class="author-img">
+                                    <img src="images/testimonial/victor.jpg" alt="">
+                                </div>
+                                <h5>Mr Victor Guerrero</h5>
+                                <span>President, Chief Operating Officer & Chief Financial Officer at Infinity Bank</span>
+                                <p>From time to time, I have the privilege of meeting a leader who is so exceptional, that I look forward to every interaction possible: Mil Amirian is one of those rare leaders.
+                                I have known Mil for a couple of years and have seen, firsthand, his professionalism and excellence in everything he does. His ability to articulate ideas and formulate solutions on the fly are second to none. Mil’s intelligent sense of humor also lightens the heaviness that can come with difficult challenges that organizations face. Mil is the quintessential leader that every company should seek to have on their team. </p>
+                            </div>
+                            <div class="testimonial-item">
+                                <div class="author-img">
+                                    <img src="images/testimonial/chris.jpg" alt="">
+                                </div>
+                                <h5>Mr Chris Sanchirico</h5>
+                                <span>Global Sales & Marketing Leader</span>
+                                <p>I had the pleasure of having Mil on my team for 5 years. Mil is highly skilled and has a vast background of experience to draw from. Mil is a go getter and really enjoys being challenged and will become bored if not challenged. I could go to Mil for any task even if not really part of his role and he would take it on with gusto and always deliver beyond what was expected. Mil is an excellent team player and does well working independently also. Mil is an intellect and thinks strategically any company that hires Mil would be getting far more than just the role they are seeking.</p>
+                            </div>
+                            <div class="testimonial-item">
+                                <div class="author-img">
+                                    <img src="images/testimonial/nita.jpg" alt="">
+                                </div>
+                                <h5>Ms Nita Chang</h5>
+                                <span>Business Relationship Manager at AbbVie</span>
+                                <p>I had the opportunity to get to know Mil through our MBA program. We worked on many team projects together across multiple subjects over the last couple of years. Mil is an exceptional team player, professional, is easy to get along with, and helps get the job done well before the deadline. One strength that I’ve noticed working with Mil is that he is good at managing teams/projects. </p>
+                                    
+                                <p> can comfortably lead projects and direct people effortlessly. I have never once heard Mil complain about anything, really! He's always in a good mood and has a friendly smile on his face. With his great attitude and work ethic, Mil is destined to succeed within any organization. Any company would be lucky to have Mil on their team!!</p>
+                            </div>
+                            <div class="testimonial-item">
+                                <div class="author-img">
+                                    <img src="images/testimonial/liz.jpg" alt="">
+                                </div>
+                                <h5>Ms Liz Chang</h5>
+                                <span>Product Manager at Extron Electronics</span>
+                                <p>Love the way Mil thinks. It is rare to find someone with a perfect balance of business and technical abilities. I have been fortunate to have collaborated with Mil through two years of business school.
+
+                                <p> In class, Mil is an effective communicator and has represented our team during group discussions. He definitely has sales in his blood because he can talk and is situationally aware to adjust, as needed. I can count on Mil to deliver quality work and keep our meetings focused during preparations for projects and case studies. On a particular case study, I was impressed with his knowledge on A/B testing, search engine optimization (SEO), and search engine marketing (SEM). </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="contact pt-50 pb-50" data-scroll-index="5">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="contact-info">
+                            <h5>Mil Amirian</h5>
+                            <p>Contact Information</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="contact-info">
+                            <h5>Phone No.</h5>
+                            <p>(+1) 949 239-4932</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="contact-info">
+                            <h5>Email</h5>
+                            <p>milamirian22@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="contact-info">
+                            <h5>Location</h5>
+                            <p>Los Angeles County</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <hr>
+                        <p class="copy pt-30">
+                            Mil Amirian &copy; 2020. All Right Reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.stellar.js"></script>
+        <script src="js/animated.headline.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/scrollIt.min.js"></script>
+        <script src="js/isotope.pkgd.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="https://kit.fontawesome.com/ee4efa5ac9.js" crossorigin="anonymous"></script>
+
+
+    </body>
 </html>
+
