@@ -1559,6 +1559,14 @@ section.banner-blog .banner-caption h1 {
     color: #e3e3e3;
 }
 
+.article-link {
+    color: purple;
+}
+
+.article-link:hover {
+    color: blue;
+}
+
 
 /*============ 15. Mobile Responsive  ============*/
 
