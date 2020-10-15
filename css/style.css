@@ -1564,7 +1564,7 @@ section.banner-blog .banner-caption h1 {
 }
 
 .article-link:hover {
-    color: blue;
+    text-decoration: underline !important;
 }
 
 
