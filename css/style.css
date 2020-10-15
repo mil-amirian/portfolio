@@ -966,6 +966,11 @@ section.services .service-item {
     margin-bottom: 50px;
 }
 
+.service-item {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 section.services .service-item .icon {
     color: #222;
     display: inline-block;
@@ -1174,79 +1179,6 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay .icon
     opacity: 1;
 }
 
-
-/*============ 9. Blogs Section ============*/
-
-.blogs .owl-carousel .owl-stage-outer {
-    padding: 15px 0;
-}
-
-.blogs .blog-item {
-    -webkit-box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 0px 30px -4px rgba(0, 0, 0, 0.1);
-}
-
-.blogs .blog-item .blog-img {
-    position: relative;
-    overflow: hidden;
-}
-
-.blogs .blog-item .blog-img img {
-    display: block;
-    width: 100%;
-    -webkit-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
-}
-
-.blogs .blog-item .blog-img img:hover {
-    -webkit-transform: scale(1.15);
-    -ms-transform: scale(1.15);
-    transform: scale(1.15);
-}
-
-.blogs .blog-item .blog-content {
-    padding: 30px 15px 15px;
-    background: #fff;
-}
-
-.blogs .blog-item .blog-content h3 {
-    font-size: 20px;
-    font-weight: 600;
-    color: #222;
-    margin-bottom: 15px;
-}
-
-.blogs .blog-item .blog-content p {
-    padding-bottom: 20px;
-    border-bottom: 1px solid #f7f7f7;
-    margin-bottom: 0;
-}
-
-.blogs .blog-item .blog-content .blog-meta {
-    padding-top: 15px;
-}
-
-.blogs .blog-item .blog-content .blog-meta span {
-    font-size: 13px;
-    color: #748182;
-}
-
-.blogs .blog-item .blog-content .blog-meta .more {
-    color: #222;
-    border-bottom: 1px solid #aaa;
-    font-weight: 600;
-}
-
-.blogs .blog-item .blog-content .blog-meta .date {
-    float: right;
-}
-
-.blog-list .blog-item {
-    margin-bottom: 50px;
-}
-
-
 /*============ 10. Testimonial Section ============*/
 
 .testimonials {
@@ -1387,6 +1319,10 @@ section.portfolio .portfolio-items .item .item-content:hover .item-overlay .icon
     border-color: #222;
 }
 
+.test-sec {
+    color: whitesmoke;
+}
+
 
 /*============ 12. Footer  ============*/
 
@@ -1413,160 +1349,6 @@ footer .copy {
     font-size: 14px;
     color: #aaa;
 }
-
-
-/*============ 13. Blogs Page ============*/
-
-section.banner-blog {
-    height: 50vh;
-    background-color: #222;
-    position: relative;
-    overflow: hidden;
-}
-
-section.banner-blog #particles-js {
-    width: 100%;
-    height: 100%;
-}
-
-section.banner-blog .banner-caption {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    width: 100%;
-    text-align: center;
-}
-
-section.banner-blog .banner-caption h1 {
-    color: #fff;
-    font-size: 48px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-
-/*============ 14. Single Blog Page ============*/
-
-.blog-detail .blog-heading {
-    margin-bottom: 30px;
-}
-
-.blog-detail .blog-heading h2 {
-    font-size: 32px;
-    font-weight: 700;
-    margin: 25px 0 10px 0;
-}
-
-.blog-detail .blog-heading .blog-meta span {
-    font-size: 14px;
-}
-
-.blog-detail .blog-content {
-    margin-bottom: 90px;
-}
-
-.blog-detail .blog-content p {
-    line-height: 28px;
-}
-
-.blog-detail .comment-title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.blog-detail ul.post-comment {
-    float: left;
-}
-
-.blog-detail ul.post-comment li {
-    width: 100%;
-    float: left;
-    border-bottom: 1px solid #efefef;
-    padding: 15px 0;
-    list-style: none;
-}
-
-.blog-detail ul.post-comment li img {
-    width: 15%;
-    float: left;
-}
-
-.blog-detail ul.post-comment li .comment-info {
-    float: left;
-    width: 85%;
-    padding-left: 15px;
-    margin-top: 10px;
-}
-
-.blog-detail ul.post-comment li .comment-info h3 {
-    float: left;
-    font-size: 16px;
-    font-weight: 700;
-    margin-bottom: 0;
-}
-
-.blog-detail ul.post-comment li .comment-info a {
-    float: right;
-    font-size: 13px;
-    font-weight: 800;
-    color: #222;
-}
-
-.blog-detail ul.post-comment li .comment-info span {
-    float: left;
-    width: 100%;
-    font-size: 13px;
-}
-
-.blog-detail ul.post-comment li .comment-info p {
-    font-size: 14px;
-    line-height: 1.2;
-    float: left;
-    margin-top: 6px;
-}
-
-.blog-detail .contact-form {
-    padding-top: 60px;
-    clear: both;
-}
-
-.blog-detail .contact-form .form-inpt {
-    width: 100%;
-    height: 45px;
-    border: 0;
-    color: #222;
-    border-bottom: 2px solid #222;
-    font-size: 14px;
-    padding-left: 10px;
-    padding-bottom: 15px;
-    margin-bottom: 15px;
-}
-
-.blog-detail .contact-form textarea {
-    width: 100%;
-    border: 0;
-    font-size: 14px;
-    border-bottom: 2px solid #222;
-    padding: 20px 0 0 10px;
-    margin-bottom: 15px;
-    height: 150px;
-}
-
-.test-sec {
-    color: #e3e3e3;
-}
-
-.article-link {
-    color: purple;
-}
-
-.article-link:hover {
-    text-decoration: underline !important;
-}
-
 
 /*============ 15. Mobile Responsive  ============*/
 
